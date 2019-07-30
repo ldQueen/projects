@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Of TestNG">
+
+    <test verbose="2" name="淘屋测试">
+<!--            <parameter name="erhouse" value="禹洲"></parameter>-->
+<!--        <parameter name="username" value="1763567962" />-->
+<!--        <parameter name="password" value="111111"></parameter>-->
+
+        <classes>
+<!--            <class name="taowu.BaiduTest">-->
+<!--                <methods>-->
+<!--                    <include name="search" />-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="taowu.LoginTest">-->
+<!--                <methods>-->
+<!--                    <include name="loginCheck" />-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="taowu.SearchTest">
+                <methods>
+                    <include name="search"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+</suite>

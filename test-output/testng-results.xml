@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-23T02:17:50Z" name="Test Of TestNG" finished-at="2019-07-23T02:18:01Z" duration-ms="11797">
+    <groups>
+    </groups>
+    <test started-at="2019-07-23T02:17:50Z" name="淘屋测试" finished-at="2019-07-23T02:18:01Z" duration-ms="11797">
+      <class name="taowu.SearchTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:taowu.SearchTest@662ac478]" started-at="2019-07-23T10:17:50Z" name="init" finished-at="2019-07-23T10:17:55Z" duration-ms="5385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="search()[pri:0, instance:taowu.SearchTest@662ac478]" started-at="2019-07-23T10:17:55Z" name="search" finished-at="2019-07-23T10:18:01Z" duration-ms="6402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- taowu.SearchTest -->
+    </test> <!-- 淘屋测试 -->
+  </suite> <!-- Test Of TestNG -->
+</testng-results>

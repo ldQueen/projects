@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Of TestNG]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="淘屋测试(failed)">
+    <classes>
+      <class name="taowu.SearchTest">
+        <methods>
+          <include name="search"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- taowu.SearchTest -->
+    </classes>
+  </test> <!-- 淘屋测试(failed) -->
+</suite> <!-- Failed suite [Test Of TestNG] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="淘屋登录"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="40.106">
+  <properties />
+  
+  
+            <testcase name="loginCheck" time="40.106" classname="taowu.LoginTest" />
+      
+</testsuite>
